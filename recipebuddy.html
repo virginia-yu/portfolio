@@ -1,0 +1,321 @@
+	
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123142473-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123142473-1');
+</script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>R E C I P E B U D D Y</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Alexa Skill for recipes and cooking assistance " />
+	<meta name="keywords" content="user experience design, ux design, virginia yu, user research, voice user interface design, voice design, alexa, alexa skill, recipes, cooking" />
+	<meta name="author" content="Virginia" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" id="theme-switch" href="css/style.css">
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Cookie -->
+	<script src="js/jquery.cookie.js"></script>
+	<script>
+	if ( $.cookie('styleCookie') === 'style-light.css') {
+		$('html, body').css('background', '#eeeeee');
+	} else if ($.cookie('styleCookie') === 'style.css') {
+		$('html, body').css('background', '#222222');
+	}
+	
+	</script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<!-- Viewport Units Buggyfill -->
+	<script src="js/viewport-units-buggyfill.js"></script>
+
+	
+	<!-- Main JS  -->
+	<script src="js/main.js"></script>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+
+	<body>
+	
+	<!-- Loader -->
+	<div class="fh5co-loader"></div>
+	
+	<div id="fh5co-page">
+		<nav id="fh5co-nav" role="navigation">
+			<ul>
+				<li class="animate-box"><a href="index.html" class="transition">Home</a></li>
+				<li class="animate-box"><a href="about.html" class="transition">About Me</a></li>
+			</ul>
+		</nav>
+		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
+			<div class="container">
+				<div class="fh5co-text-wrap animate-box">
+					<div class="fh5co-intro-text">
+						<h1>RecipeBuddy</h1>
+						<h2>cooking and recipes</h2>
+					</div>
+				</div>
+			</div>
+			<div class="btn-next animate-box fh5co-learn-more">
+				<a href="#" class="scroll-btn">
+					<span>See the detail</span>
+					<i class="icon-chevron-down"></i>
+				</a>
+			</div>
+		</header>
+
+		<div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
+			<div class="container">
+
+
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 1</span> Overview</h3>
+							</div>
+							<div class="col-md-9">
+								<p class="fh5co-lead">A voice assistant that provides cooking assistance is needed in kitchens of today’s society. Books and digital devices are not helpful as cooking requires the use of both hands. The chef is not always able to turn the page or scroll on a screen for further instruction. Cooking videos and cooking shows are not helpful either. The culinary host may be moving too quickly for the viewer to keep up with or the viewer’s eyes need to be focused on their immediate task. Voice user interfaces are a great solution for this problem as they can dictate out loud the recipe directions at a steady pace while the cook can focus on their culinary task.</p>
+								<img src="images/recipebuddy-03.jpg" class="img-responsive" alt="Single Project">
+							</div>
+						</div>
+
+						<div class="row animate-box row-bottom-padded-sm ">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 2</span> User Personas</h3>
+							</div>
+							<div class="col-md-9">
+								
+								<p class="fh5co-lead">Personas were created to direct the design decisions in the development of RecipeBuddy. The user persona is a representation of the pain points and needs of the target user. During the design process, the user persona is used as a point of reference to stay on target. The system persona is designed to match the user persona’s preferences and speech patterns. The system persona is a representation of the assistant the end user will interact with. By establishing a system persona, it anthropomorphizes the voice interface. Both personas were vital in the beginning to order to establish voice scripts and prompts. They were used as references during the design process to ensure proper design choices were made for a smooth interaction with the voice assistant.</p>
+								<img src="images/recipebuddy-04.jpg" class="img-responsive" alt="Single Project">
+								</div>
+								</div>
+								<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 3</span> Intents and Slots</h3>
+							</div>
+							<div class="col-md-9">
+								<img src="images/recipebuddy-05.jpg" class="img-responsive" alt="Single Project"> 
+								</div>
+								</div>
+								<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 4</span>User Stories</h3>
+							</div>
+							<div class="col-md-9">
+
+								<p class="fh5co-lead">User stories were created to help design the features needed in the voice assistant. The story sets the context, identifies what the user’s needs are and what their goal is. They represent the situations the user is in and summarizes what an experience needs to cover.</p><img src="images/recipebuddy-06.jpg" class="img-responsive" alt="Single Project">
+								</div>
+								</div>
+
+								<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 5</span>Voice Script</h3>
+							</div>
+							<div class="col-md-9">
+
+								<p><img src="images/recipebuddy-07.jpg" class="img-responsive" alt="Single Project"></p>
+							</div>
+						</div>	
+						
+
+						<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 6</span> User Flows</h3>
+							</div>
+							<div class="col-md-9">
+							<p class="fh5co-lead">User flows are created to establish the structure of the voice interface. It maps out all the possible inputs and identifies any issues or additional use cases. The user flow functions like a floor plan of a building, it identifies all the possible paths the user can take to reach their place.</p>
+							
+							<figure><img src="images/recipebuddy-08.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template"></figure>
+							</div>
+						</div>
+
+						<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 7</span>Scripts</h3>
+							</div>
+							<div class="col-md-9">
+								<p class="fh5co-lead">Voice prompts and utterances were established to create the script for the voice interface.  The voice script is essentially the heart and soul of the voice interface. It processes what the user will enter and responds with the appropriate prompt.</p>
+								<img src="images/recipebuddy-09.jpg" class="img-responsive" alt="Single Project">
+							</div>
+						</div>
+
+
+							<div class="row animate-box row-bottom-padded-sm">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 8</span> Usability Testing</h3>
+							</div>
+							<div class="col-md-9">
+							<p>Background</p>
+								<p>People needed a skill that provides healthy and quick recipes for their busy lifestyles. The resulting prototype is an initial hypothesis on how I hope to solve the problem. A usability test will be run to test the most important features and functionality: selecting a recipe, providing a variety of recipes and receiving step by step instructions. The study will include a briefing, task performances and follow up questions. The test will be conducted with WOz methodology and VoiceX. It will be recorded with QuickTime player. The participants range between the ages of 25 - 29. They are working professionals with high technology usage. They are familiar with voice interfaces.</p>
+			<p>TEST OBJECTIVE </p>
+			<li>To understand how users respond to the skill prompts</li>
+			<li>To further dissect all possible speech dictations a user will say to the skill</li>
+			<li>To study if there are any issues in searching for a recipe</li>
+			<li>To study if there are any issues in selecting a recipe</li>
+ 			<li>To study if there are any issues receiving cooking instructions</li>
+ 			<li>To understand if there are any flaws or issues with the voice system overall</li>
+			<p></p>
+			<p>CONCLUSION </p>
+			<p>The testing went very smoothly. I was able to highlight the strengths and weaknesses of the skill to further improve it. A few changes that need to be made include: multiple recipe options during the immediate search, change the recipe time to be more realistic and slowing down the pace of the recipe by breaking down the steps more and including more utterances. From the usability testing, I was able to discover more utterances users could possibly say to the prompts from Alexa. The users felt rushed and slightly overwhelmed by the amount of information given through the instructions.</p>
+			 <img src="images/recipebuddy-12.jpg" class="img-responsive" alt="Single Project">
+			<p>TEST REPORT</p>
+			<p>All participants were able to complete the task in each scenario. A few issues came about during the test. They are highlighted below. </p>
+			<p>Issue 1: Recipe time length (medium)</p>
+			<p>Suggested Change: Use realistic cooking time and include prep time for an overall total of how long it really takes to make the dish.</p>
+			<p>Evidence: Users thought it was unrealistic to make fish tacos in 5 minutes. They suggested to include prep time and not just cooking time. </p>
+			<p>Issue 2: Utterances to enter recipe (high)</p>
+<p>Suggested Change: Include more utterances to enter start recipe prompt.</p>
+<p>Evidence: User responded to the start recipe prompt with “ I’m taking the ingredients from my fridge.” The skill is designed to respond to yes or no to starting a recipe. More utterances need to be considered.</p>
+<p>Issue 3: Include more utterances (medium)</p>
+<p>Suggested Change: Include what now as an utterance</p>
+<p>Evidence: In order to proceed along the recipe steps, the skill is designed to only respond to 'next step', 'pause' or 'repeat step'. However, the user responded by saying, “What now?”</p>
+<p>ISSUE 4: Break down recipe steps further and slow down the pacing of instructions (high)</p>
+<p>Suggested Change: Recipe skill needs to allow time for the user to follow instructions or break down recipe steps further so users do not feel rushed.</p>
+<p>Evidence: User felt the steps were demanding and there was a time crunch to keep up with cooking. They needed more time to recollect what the instructions were to follow through.</p>
+<p>ISSUE 5: Offer multiple recipes at the beginning of the search (high)</p>
+<p>Suggested Change: Include 3 recipe options at the beginning instead of 1.</p>
+<p>Evidence: User did not have parmesan cheese and did not like the option. The app only offered one option which gave the user the impression that was the only recipe available for chicken.</p>
+
+							</div>
+						</div>
+
+						<div class="row animate-box row-bottom-padded-sm">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 9</span> Voice script changes</h3>
+							</div>
+							<div class="col-md-9"><img src="images/recipebuddy-13.jpg" class="img-responsive" alt="Single Project">
+								
+							</div>
+						</div>
+
+						<div class="row animate-box row-bottom-padded-sm">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 10</span> RecipeBuddy Prompts</h3>
+							</div>
+							<div class="col-md-9">
+						<iframe width="100%" height="265" src="https://clyp.it/a5grdc0c/widget" frameborder="0"></iframe>
+<iframe width="100%" height="265" src="https://clyp.it/tian4bjw/widget" frameborder="0"></iframe>
+<iframe width="100%" height="265" src="https://clyp.it/vmbwkwyj/widget" frameborder="0"></iframe>
+</div>
+</div>
+
+						<div class="row animate-box row-bottom-padded-sm">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 11</span> More Projects</h3>
+							</div>
+							<div class="col-md-9">
+								<div class="flexslider">
+								  <ul class="slides">
+								    <li>
+								      <a href="wanderwords.html" class="transition"><img src="images/wander.jpg" /></a>
+								    </li>
+								    <li>
+								      <a href="giveaway.html" class="transition"><img src="images/give-away.jpg" /></a>
+								    </li>
+								    <li>
+								      <a href="virtuoso.html" class="transition"><img src="images/virtuoso.jpg" /></a>
+								    </li>
+								    <li>
+								      <a href="recipebuddy.html" class="transition"><img src="images/recipebuddy.jpg" /></a>
+								    </li>
+								    <li>
+								      <a href="pure.html" class="transition"><img src="images/pure.jpg" /></a>
+								    </li>
+								  </ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div> 
+
+			</div>
+		</div>
+
+		<footer id="fh5co-footer" class="js-fh5co-waypoint">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+					<a href="#" class="scrollup">Back to top</a>
+						<p><small>&copy; Copyright by Virginia Yu</p>
+						<ul class="fh5co-social">
+							<li>
+								<a href="https://twitter.com/MlSSYU"><i class="icon-twitter"></i></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/missyu"><i class="icon-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="https://www.behance.net/missyu"><i class="icon-behance"></i></a>
+							</li>
+							<li>
+								<a href="https://dribbble.com/missyu"><i class="icon-dribbble"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+
+	</body>
+</html>
+
